@@ -25696,7 +25696,7 @@
 			"show_in_armory"	"1"
 			"item_type_name"	"Level 1 Waifu"
 			"item_name"	"Miku"
-			"item_description"	"Model by: Yu Higuchi"
+			"item_description"	"Model by Yu Higuchi"
 			"item_slot"	"misc2"
 			"equip_region"		"disconnected_floating_item"
 			"item_quality"	"unique"
@@ -25724,6 +25724,10 @@
 				"player_bodygroups"
 				{
 					"scout"	"1"
+					"shoes_socks"	"1"
+					"headphones"	"1"
+					"hat"	"1"
+					"dogtags"	"1"
 				}
 			}
 			"mouse_pressed_sound"	"vo/medic_sf13_influx_big03.wav"
