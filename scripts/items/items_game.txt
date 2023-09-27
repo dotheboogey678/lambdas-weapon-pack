@@ -9729,6 +9729,150 @@
 				"sound_special1"		"Weapon_Sticky_Jumper.Explode"
 			}
 		}
+		"266"
+		{
+			"name"	"The Horseless Headless Horseman's Headtaker"
+			"prefab"	"weapon_eyelander"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_taunt_damage"		"1"
+			}
+			"item_type_name"	"#TF_Weapon_Axe"
+			"item_name"	"#TF_HalloweenBoss_Axe"
+			"item_description"	"#TF_HalloweenBoss_Axe_Desc"
+			"item_quality"	"rarity4"
+			"item_logname"	"headtaker"
+			"item_iconname"	"headtaker"
+			"propername"	"1"
+			"show_in_armory"	"1"
+			"image_inventory"	"backpack/weapons/c_models/c_headtaker/c_headtaker"
+			"model_player"	"models/weapons/c_models/c_headtaker/c_headtaker.mdl"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+			"visuals"
+			{
+				"sound_melee_miss"	"Weapon_Sword.Swing"
+				"sound_melee_hit"	"Halloween.HeadlessBossAxeHitFlesh"
+				"sound_melee_hit_world"	"Halloween.HeadlessBossAxeHitWorld"
+				"sound_burst"		"Weapon_Sword.SwingCrit"
+				"sound_special1"	"Sword.Hit"
+				"sound_special2"	"Sword.Idle"
+			}
+			"attributes"
+			{
+			
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"			"1.5"
+				}
+				"fire rate penalty HIDDEN"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"			"1.35"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"			"0.0"
+				}
+				"max health additive penalty"
+				{
+					"attribute_class"	"add_maxhealth"
+					"value" "-50"
+				}
+				"single wep deploy time increased HIDDEN"
+				{
+					"attribute_class"	"mult_single_wep_deploy_time"
+					"value"	"2.0"
+				}
+				"provide on active"
+				{
+					"attribute_class"	"provide_on_active"
+					"value" "1"
+				}
+				"health drain"
+				{
+					"attribute_class"	"add_health_regen"
+					"value"	"-1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"xifier_class_remap"	"Horseman's Headtaker"
+		}
+		"278"
+		{
+			"name"	"Horseless Headless Horseman's Head"
+			"prefab"		"base_hat"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name""#TF_Wearable_Hat"
+			"item_name"	"#TF_Halloween_Head"
+			"item_description"	"#TF_Halloween_Head_Desc"
+			"item_slot"	"head"
+			"equip_region"	"whole_head"
+			"item_quality"	"unique"
+			"min_ilevel"	"31"
+			"max_ilevel"	"31"
+			"image_inventory"	"backpack/player/items/all_class/pumkin_hat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"
+			{
+				"scout"	"models/player/items/all_class/pumpkin_hat_scout.mdl"
+				"sniper"	"models/player/items/all_class/pumpkin_hat_sniper.mdl"
+				"soldier"	"models/player/items/all_class/pumpkin_hat_soldier.mdl"
+				"mercenary"	"models/player/items/all_class/pumpkin_hat_soldier.mdl"
+				"demoman"	"models/player/items/all_class/pumpkin_hat_demo.mdl"
+				"civilian"	"models/player/items/all_class/pumpkin_hat_heavy.mdl"
+				"medic"	"models/player/items/all_class/pumpkin_hat_medic.mdl"
+				"heavy"	"models/player/items/all_class/pumpkin_hat_heavy.mdl"
+				"spy"	"models/player/items/all_class/pumpkin_hat_spy.mdl"
+				"engineer"	"models/player/items/all_class/pumpkin_hat_engineer.mdl"
+				"pyro"	"models/player/items/all_class/pumpkin_hat_pyro.mdl"
+			}
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+				"mercenary" "1"
+				"civilian" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_default_pickup.wav"
+			"drop_sound" 		"ui/item_default_drop.wav"
+		}
 		"304"
 		{
 			"name"			"The Amputator"
