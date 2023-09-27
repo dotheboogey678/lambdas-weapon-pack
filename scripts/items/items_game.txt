@@ -10452,7 +10452,7 @@
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
 			}
-			"show_in_armory"	"0"
+			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RiftFireAxe"
 			"item_name"	"#TF_Unique_RiftFireAxe"
 			"item_description"	"#TF_RiftFireAxe_Desc"
@@ -10489,7 +10489,7 @@
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"	"0.8"
+					"value"	"0.85"
 				}
 			}
 		}
@@ -10872,6 +10872,7 @@
 			"first_sale_date"	"2011/03/07"
 			"particle_suffix"	"bazaar_bargain"
 			"show_in_armory"	"0"
+			//broken af
 			"tags"
 			{
 				"can_be_festivized"		"1"
@@ -10886,6 +10887,14 @@
 					}
 				}
 			}
+			"attributes"
+			{
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"0.05"
+				}
 		}
 		"404"
 		{
@@ -11492,7 +11501,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 			}
-			"show_in_armory"	"0"
+			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Gloves"
 			"item_name"	"#TF_EvictionNotice"
 			"item_slot"	"melee"
@@ -11515,15 +11524,15 @@
 			"static_attrs"
 			{
 				"min_viewmodel_offset"			"10 0 -8"
-				"mult_player_movespeed_active"	"1.15"
-				"mod_maxhealth_drain_rate"		"5.0"
+				"mult_player_movespeed_active"	"1.4"
+				"mod_maxhealth_drain_rate"		"2.0"
 			}
 			"attributes"
 			{
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"	"0.4"
+					"value"	"0.5"
 				}
 				"fire rate bonus"
 				{
@@ -11533,7 +11542,7 @@
 				"speed_boost_on_hit"
 				{
 					"attribute_class"	"speed_boost_on_hit"
-					"value"	"3"
+					"value"	"3.5"
 				}
 			}
 			"visuals"
