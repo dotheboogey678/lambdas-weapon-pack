@@ -15786,6 +15786,94 @@
 				"is_partner_taunt" "1"
 			}
 		}
+"640"
+		{
+			"name"	"The Top Notch"
+			"prefab"		"base_hat"
+			"first_sale_date"	"2011/11/23"
+			"item_class"			"tf_wearable"
+			"loadondemand"			"1"
+			"show_in_armory"		"1"
+			"item_type_name"		"#TF_Wearable_Hat"
+			"item_name"				"#TF_TopNotch"
+			"item_description"		"#TF_TopNotch_Desc"
+			"item_slot"				"head"
+			"equip_region"			"hat"
+			"item_quality"			"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"propername"			"1"
+			"image_inventory"	"backpack/player/items/all_class/notch_head_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"
+			{
+				"scout"	"models/player/items/all_class/notch_head_scout.mdl"
+				"sniper"	"models/player/items/all_class/notch_head_sniper.mdl"
+				"soldier"	"models/player/items/all_class/notch_head_soldier.mdl"
+				"demoman"	"models/player/items/all_class/notch_head_demo.mdl"
+				"medic"	"models/player/items/all_class/notch_head_medic.mdl"
+				"heavy"	"models/player/items/all_class/notch_head_heavy.mdl"
+				"spy" "models/player/items/all_class/notch_head_spy.mdl"
+				"engineer" "models/player/items/all_class/notch_head_engineer.mdl"
+				"pyro" "models/player/items/all_class/notch_head_pyro.mdl"
+			}
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_drop.wav"
+		}
+		"1087"
+		{
+			"name"	"Der Maschinensoldaten-Helm"
+			"prefab"	"valve misc"
+			"item_name"		"Der Maschinensoldaten-Helm"
+			"item_description"		"sic sempter tyrannis"
+			"equip_region"		"hat"
+			"propername"		"1"
+			"item_slot"	"head"
+			"image_inventory"	"backpack/player/items/heavy/heavy_wolf_helm"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player" "models/player/items/heavy/heavy_wolf_helm.mdl"
+			"used_by_classes"
+			{
+				"heavy"		"1"
+				"mercenary"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_helmet_pickup.wav"
+			"drop_sound"		"ui/item_helmet_drop.wav"
+		}
 		"1108"
 		{
 			"name"	"Buy A Life Taunt"
