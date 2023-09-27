@@ -9954,6 +9954,7 @@
 			"used_by_classes"
 			{
 				"demoman"	"1"
+				"soldier"	"1"
 			}
 			"static_attrs"
 			{
@@ -9988,7 +9989,7 @@
 			"prefab" "weapon_lochnload"
 			"first_sale_date"	"2010/12/08"
 			"particle_suffix"	"loch_n_load"
-			"show_in_armory"	"0"
+			"show_in_armory"	"1"
 			"tags"
 			{
 				"can_be_festivized"		"1"
@@ -10106,7 +10107,7 @@
 			"model_player"	"models/workshop/weapons/c_models/c_buffalo_steak/c_buffalo_steak.mdl"
 			"propername"	"1"
 			"inspect_panel_dist" "31"
-			"show_in_armory"	"0"
+			"show_in_armory"	"1"
 			"used_by_classes"
 			{
 				"heavy"	"1"
